@@ -1,0 +1,124 @@
+cv:
+  name: Ting-Wei Hsu
+  label: PhD Student, Electrical & Computer Engineering
+  email: twhsu@gatech.edu
+  location: Atlanta, GA, US
+  image: ""
+  summary: >
+    PhD student in ECE at Georgia Tech (MARGA group, advised by Prof. Karthikeyan Sundaresan),
+    working on wireless AI — RF sensing, mmWave systems, wireless digital twins, and deep
+    learning for communications, with recent work on networking for AI (datacenter networking
+    and LLM serving).
+
+  social_networks:
+    - network: LinkedIn
+      username: ting-wei-hsu-aa17a9201
+
+  address:
+    city: Atlanta
+    region: Georgia
+    countryCode: US
+
+  sections:
+    Education:
+      - institution: Georgia Institute of Technology
+        location: Atlanta, USA
+        url: https://www.gatech.edu/
+        area: Electrical and Computer Engineering
+        studyType: PhD
+        start_date: 2024
+        end_date: "Present"
+        score: GPA 4.0/4.0
+        highlights:
+          - "Advisor: Prof. Karthikeyan Sundaresan (MARGA group)"
+
+      - institution: National Taiwan University
+        location: Taipei, Taiwan
+        url: https://www.ntu.edu.tw/english/
+        area: Communication Engineering
+        studyType: M.S.
+        start_date: 2021
+        end_date: 2024
+        score: GPA 4.3/4.3
+        highlights:
+          - "Advisor: Prof. Hung-Yun Hsieh"
+          - "Thesis: Multi-User Pose Estimation Based on Spatial and Temporal Features from WiFi CSI"
+
+      - institution: Keio University
+        location: Tokyo, Japan
+        area: Exchange Student
+        studyType: ""
+        start_date: 2023
+        end_date: 2024
+
+      - institution: National Taiwan University
+        location: Taipei, Taiwan
+        area: Mechanical Engineering (Minor in Computer Science)
+        studyType: B.S.
+        start_date: 2016
+        end_date: 2021
+        score: GPA 3.89/4.3
+
+    Research Experience:
+      - company: Mobile Advanced Research (MARGA), Georgia Tech
+        position: Graduate Research Assistant
+        location: Atlanta, USA
+        start_date: 2024
+        end_date: "Present"
+        highlights:
+          - Developed an mmWave digital twin for throughput-assured, AI-in-the-loop applications.
+          - Designed a vision-language-model-based mmWave digital twin for explainable channel prediction.
+
+      - company: Mobile Networks and Wireless Communications Lab, NTU
+        position: Graduate Research Assistant
+        location: Taipei, Taiwan
+        start_date: 2021
+        end_date: 2024
+        highlights:
+          - Built a framework for multi-user pose estimation from WiFi CSI.
+          - Proposed three approaches to capture spatial and temporal features from WiFi CSI.
+          - Set up CSI simulation and a real-world experiment platform for verification.
+
+      - company: Automation Lab, Academia Sinica
+        position: Part-Time Research Assistant
+        location: Taipei, Taiwan
+        start_date: 2019
+        end_date: 2020
+        highlights:
+          - Derived eta-3-spline / Bezier path transformations and curvature-constrained trajectory design for trailer-tractor parking.
+
+    Teaching:
+      - company: Georgia Tech
+        position: Teaching Assistant, Computer Communications
+        start_date: 2024
+        end_date: 2025
+      - company: National Taiwan University
+        position: Teaching Assistant, Computer Programming Language (x2) & Probability and Statistics
+        start_date: 2021
+        end_date: 2022
+
+    Honors:
+      - title: JASSO Scholarship
+        awarder: Japan Student Services Organization
+        date: 2023
+        summary: Merit-based scholarship for foreign students, awarded by the Japanese government.
+      - title: HITCON World CTF — Top 40%
+        awarder: HITCON
+        date: 2023
+        summary: Responsible for the cryptography section.
+
+    Skills:
+      - name: Programming
+        keywords: "Python, C/C++, MATLAB, LaTeX"
+      - name: ML / DL
+        keywords: "PyTorch, NumPy/SciPy, Vision-Language Models, Neural Radiance Fields (NeRF)"
+      - name: Wireless / RF
+        keywords: "mmWave testbeds, WiFi CSI, USRP / GNU Radio, ns-3, ray tracing"
+
+    Languages:
+      - name: Chinese
+        summary: Native
+      - name: English
+        summary: Fluent
+      - name: Japanese
+        summary: Conversational

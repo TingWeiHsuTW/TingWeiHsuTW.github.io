@@ -1,0 +1,118 @@
+---
+---
+
+@string{iotj = {IEEE Internet of Things Journal}}
+
+@article{hsu2025vipdt,
+  abbr        = {Under review},
+  bibtex_show = {true},
+  title       = {VIP-DT: Semantic Vision Prior for Fast RF Digital Twin Construction},
+  author      = {Hsu, Ting-Wei and Sundaresan, Karthikeyan},
+  year        = {2025},
+  note        = {Under review},
+  abstract    = {VIP-DT turns semantic vision into a physics-informed, measurement-free RF prior for fast RF digital-twin construction. A vision-language model extracts spatial and material cues from a robot-collected 3D point cloud to form a zero-shot RSSI prior, a spatial-RF-informed sampler selects the most informative survey points, and a two-stage prior-guided scheme pretrains on the prior before fine-tuning on a few measurements. VIP-DT reaches a 3 dB RSSI-error twin with up to 3.4x fewer real (9x fewer simulated) measurements, finishing a 300 square-meter floor in 57 minutes instead of 7.4 hours (an 87 percent saving).},
+  selected    = {true}
+}
+
+@article{hsu2025mmtwin,
+  abbr        = {Under review},
+  bibtex_show = {true},
+  title       = {mmTwin: A Scalable Vision-to-RF Digital Twin for mmWave Networks},
+  author      = {Hsu*, Ting-Wei and Lin*, Yu-Tai and Sundaresan, Karthikeyan},
+  year        = {2025},
+  note        = {Under review},
+  html        = {https://margalab.ece.gatech.edu/projects/digital_twin/AssureNet.html},
+  annotation  = {* Equal contribution},
+  abstract    = {mmTwin is a scalable mmWave digital twin that learns a vision-to-RF mapping: a ViT environment encoder reads blockages and reflectors from RGB-D imagery, and a beam-guided attention mechanism predicts the full beamformed link profile for any transmitter-receiver-beam tuple, generalizing to unseen sites without new RF data. It predicts beam profiles within about 4 dB on unseen real sites (versus 5.9 to 8.1 dB for the best baseline), reports the correct top beam 76.1 percent of the time, and replaces hours of RF collection with minutes of vision capture, a 61x overhead reduction.},
+  selected    = {true}
+}
+
+@article{lin2025assurenet,
+  abbr        = {Under review},
+  bibtex_show = {true},
+  title       = {Predictive Traffic Engineering for Assured mmWave Networking in Industrial AI Applications},
+  author      = {Lin*, Yu-Tai and Hsu*, Ting-Wei and Sundaresan, Karthikeyan},
+  year        = {2025},
+  note        = {Under review},
+  html        = {https://margalab.ece.gatech.edu/projects/digital_twin/AssureNet.html},
+  annotation  = {* Equal contribution},
+  abstract    = {AssureNet couples a curated mmWave neural-radiance-field digital twin with proactive, look-ahead traffic engineering to deliver assured networking for AI-in-the-loop real-time industrial applications. The twin predicts how anticipated mobility and blockages will affect links, letting the network reconfigure beams and multi-hop routes before disruptions occur, via game-theoretic beam selection and admission control. AssureNet meets application requirements about 100 percent of the time (versus at most 35 percent for baselines), with 1.3 to 1.5x higher throughput and roughly 5x lower disruption.}
+}
+
+@article{lin2025dicop,
+  abbr        = {Under review},
+  bibtex_show = {true},
+  title       = {Distributed Collaborative Positioning through ISAC for GPS-Denied Robotic Swarms},
+  author      = {Lin*, Yu-Tai and Hsu*, Ting-Wei and Sundaresan, Karthikeyan},
+  year        = {2025},
+  note        = {Under review},
+  html        = {https://margalab.ece.gatech.edu/projects/ISAC/DiCoP.html},
+  annotation  = {* Equal contribution},
+  abstract    = {DiCoP is an infrastructure-free distributed collaborative-positioning paradigm for GPS-denied robotic swarms, built on asynchronous multi-static ISAC. A differential sensing technique cancels clock and carrier-frequency-offset errors at O(1) overhead, and a joint distance-velocity optimization lets each node estimate its own position and velocity, while an ISAC-aware MAC prioritizes fast-moving or under-measured nodes. In large-scale NS-3 it keeps sub-2 m error for about 89 percent of nodes with 54.3 ms convergence that stays constant with swarm size, scaling to 100 UAVs.}
+}
+
+@inproceedings{lin2026ark,
+  abbr        = {NAIC'26},
+  bibtex_show = {true},
+  title       = {ARK: Avoiding Routing Collisions for KV Cache Transfer in Disaggregated LLM Inference},
+  author      = {Lin*, Hung-Chun and Hsu*, Ting-Wei and Ho, Chung-En and Saeed, Ahmed},
+  booktitle   = {Proc. ACM SIGCOMM Workshop on Networks for AI Computing (NAIC)},
+  address     = {Denver, CO, USA},
+  year        = {2026},
+  note        = {To appear},
+  annotation  = {* Equal contribution},
+  abstract    = {ARK is a lightweight, distributed elephant-flow path-reservation mechanism for the massive KV-cache transfers created by prefill-decode disaggregated LLM inference. Using admission-time knowledge of flows, senders pick source ports whose ECMP hashes map concurrent transfers onto distinct spine links, avoiding hash collisions without any switch changes or receiver-side reordering. ARK cuts mean and P95 flow-completion time by up to 27.3 and 34.0 percent and end-to-end time-to-first-token by up to 12.9 percent, keeping per-spine load below about 8 concurrent flows (versus up to 18 under ECMP).},
+  selected    = {true}
+}
+
+@article{hsu2025iotj,
+  abbr        = {IoT-J},
+  bibtex_show = {true},
+  title       = {On Using Spatial and Temporal Features for Robust Multiuser Pose Estimation Based on WiFi CSI},
+  author      = {Hsu, Ting-Wei and Hsieh, Hung-Yun},
+  journal     = iotj,
+  volume      = {12},
+  number      = {15},
+  pages       = {29897--29912},
+  year        = {2025},
+  publisher   = {IEEE},
+  html        = {https://ieeexplore.ieee.org/document/11008528/},
+  abstract    = {This work performs multi-user human pose estimation using only off-the-shelf WiFi and a simple linear antenna array. It jointly extracts environment-independent spatial (AoA-ToF) and temporal (AoA-Doppler) features via a modified MUSIC algorithm and an MVDR beamformer, then estimates free-form poses with a deep model, staying robust when the environment layout changes. It improves cross-domain accuracy by about 12 percent (mean PCK) over prior CSI amplitude/phase methods and runs in real time (about 19 FPS).},
+  selected    = {true}
+}
+
+@inproceedings{hsu2024icc,
+  abbr        = {ICC},
+  bibtex_show = {true},
+  title       = {Robust Multi-User Pose Estimation Based on Spatial and Temporal Features from WiFi CSI},
+  author      = {Hsu, Ting-Wei and Hsieh, Hung-Yun},
+  booktitle   = {IEEE International Conference on Communications (ICC)},
+  address     = {Denver, CO, USA},
+  year        = {2024},
+  html        = {https://ieeexplore.ieee.org/document/10623053/},
+  abstract    = {A WiFi-CSI multi-user pose-estimation system that extracts AoA-ToF and AoA-Doppler heatmaps from a commodity linear antenna array and estimates free-form poses with a 3D-CNN, OpenPose-style model. It outperforms amplitude/phase-based baselines by about 12 percent mean PCK under environment changes.}
+}
+
+@inproceedings{hsu2020acc,
+  abbr        = {ACC},
+  bibtex_show = {true},
+  title       = {Design of Smooth Path Based on the Conversion between Eta-3 Spline and Bezier Curve},
+  author      = {Hsu, Ting-Wei and Liu, Jing-Sin},
+  booktitle   = {American Control Conference (ACC)},
+  address     = {Denver, CO, USA},
+  year        = {2020},
+  html        = {https://ieeexplore.ieee.org/document/9147319/},
+  abstract    = {Derives a bijective transformation from simplified eta-3 splines (7th-degree, G3-continuous curves) to 7th-degree Bezier curves, combining the boundary-condition convenience of eta-3 splines with the convex-hull and manipulation advantages of Bezier curves for smooth path design.}
+}
+
+@inproceedings{hsu2020automation,
+  abbr        = {Automation},
+  bibtex_show = {true},
+  title       = {Convex Hull Determination Method for Generating Bezier Curve Followed by Trailer-Tractor System},
+  author      = {Hsu, Ting-Wei and Liu, Jing-Sin},
+  booktitle   = {International Automatic Control Conference (Automation)},
+  address     = {Hualien, Taiwan},
+  year        = {2020},
+  pdf         = {https://homepage.iis.sinica.edu.tw/papers/liu/23533-F.pdf},
+  abstract    = {Proposes a method to approximate the convex hull of a non-Bezier trailer path by fitting 7th-degree Bezier curves, enabling obstacle-avoidance feasibility checking; segmenting the curve into multiple Bezier pieces shrinks the enclosed convex-hull area (for example, from 25.04 to 1.73) for far less conservative bounding.}
+}
