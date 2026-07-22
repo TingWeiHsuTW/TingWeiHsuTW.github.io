@@ -38,7 +38,7 @@ for AI**, including datacenter networking and LLM serving systems. Earlier, I bu
 deep-learning methods for **multi-user human pose estimation from WiFi CSI**.
 
 Before Georgia Tech, I received my M.S. in Communication Engineering from
-[National Taiwan University](https://www.ntu.edu.tw/english/) (advised by Prof. Hung-Yun Hsieh),
+[National Taiwan University](https://www.ntu.edu.tw/english/) (advised by [Prof. Hung-Yun Hsieh](https://www.ee.ntu.edu.tw/profile1.php?teacher_id=942014)),
 spent an exchange semester at [Keio University](https://www.keio.ac.jp/en/), and earned my B.S.
 in Mechanical Engineering from NTU. I am on the lookout for **summer 2027 research internships**
 in wireless systems, ML for communications, and networked systems for AI.
