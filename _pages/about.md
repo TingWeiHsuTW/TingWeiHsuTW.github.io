@@ -29,7 +29,7 @@ latest_posts:
 
 I am a PhD student in [Electrical and Computer Engineering](https://ece.gatech.edu/) at the
 [Georgia Institute of Technology](https://www.gatech.edu/), where I am a member of the MARGA
-group advised by [Prof. Karthikeyan Sundaresan](https://sundaresankarthik.com/).
+group advised by [Prof. Karthikeyan Sundaresan](https://ece.gatech.edu/directory/karthikeyan-sundaresan).
 
 My research is on **wireless AI** — building systems where sensing, learning, and networking
 meet. I currently work on **mmWave systems and wireless digital twins**, using vision priors
