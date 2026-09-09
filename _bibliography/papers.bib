@@ -11,7 +11,7 @@
   author      = {Hsu, Ting-Wei and Sundaresan, Karthikeyan},
   year        = {2026},
   note        = {Under review},
-  abstract    = {VIP-DT turns semantic vision into a physics-informed, measurement-free RF prior for fast RF digital-twin construction. A vision-language model extracts spatial and material cues from a robot-collected 3D point cloud to form a zero-shot RSSI prior, a spatial-RF-informed sampler selects the most informative survey points, and a two-stage prior-guided scheme pretrains on the prior before fine-tuning on a few measurements. VIP-DT reaches a 3 dB RSSI-error twin with up to 3.4x fewer real (9x fewer simulated) measurements, finishing a 300 square-meter floor in 57 minutes instead of 7.4 hours (an 87 percent saving).},
+  abstract    = {A vision-language model turns semantic scene understanding into a physics-informed, measurement-free RF prior, so an accurate RF digital twin can be built from far fewer site-survey measurements. Full details will be posted after review.},
   selected    = {true}
 }
 
@@ -25,7 +25,7 @@
   note        = {Under review},
   html        = {https://margalab.ece.gatech.edu/projects/digital_twin/AssureNet.html},
   annotation  = {* Equal contribution},
-  abstract    = {mmTwin is a scalable mmWave digital twin that learns a vision-to-RF mapping: a ViT environment encoder reads blockages and reflectors from RGB-D imagery, and a beam-guided attention mechanism predicts the full beamformed link profile for any transmitter-receiver-beam tuple, generalizing to unseen sites without new RF data. It predicts beam profiles within about 4 dB on unseen real sites (versus 5.9 to 8.1 dB for the best baseline), reports the correct top beam 76.1 percent of the time, and replaces hours of RF collection with minutes of vision capture, a 61x overhead reduction.},
+  abstract    = {A scalable vision-to-RF digital twin that predicts beamformed mmWave link profiles directly from RGB-D imagery, generalizing to unseen environments without collecting new RF measurements. Full details will be posted after review.},
   selected    = {true}
 }
 
@@ -39,7 +39,8 @@
   note        = {Under review},
   html        = {https://margalab.ece.gatech.edu/projects/digital_twin/AssureNet.html},
   annotation  = {* Equal contribution},
-  abstract    = {AssureNet couples a curated mmWave neural-radiance-field digital twin with proactive, look-ahead traffic engineering to deliver assured networking for AI-in-the-loop real-time industrial applications. The twin predicts how anticipated mobility and blockages will affect links, letting the network reconfigure beams and multi-hop routes before disruptions occur, via game-theoretic beam selection and admission control. AssureNet meets application requirements about 100 percent of the time (versus at most 35 percent for baselines), with 1.3 to 1.5x higher throughput and roughly 5x lower disruption.}
+  abstract    = {A digital-twin-driven predictive traffic-engineering framework that anticipates mobility- and blockage-induced link degradation and proactively reconfigures beams and routes, so real-time industrial applications keep meeting their networking requirements. Full details will be posted after review.},
+  selected    = {true}
 }
 
 @inproceedings{lin2026dicop,
