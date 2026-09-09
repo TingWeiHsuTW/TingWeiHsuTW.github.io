@@ -59,7 +59,7 @@ cv:
         end_date: 2021
         score: GPA 3.89/4.3
 
-    Research Experience:
+    Experience:
       - company: Mobile Advanced Research (MARGA), Georgia Tech
         position: Graduate Research Assistant
         location: Atlanta, USA
@@ -88,16 +88,12 @@ cv:
           - Derived eta-3-spline / Bezier path transformations and curvature-constrained trajectory design for trailer-tractor parking.
 
     Teaching:
-      - company: Georgia Tech
-        position: Teaching Assistant, Computer Communications
-        start_date: 2024
-        end_date: 2025
-      - company: National Taiwan University
-        position: Teaching Assistant, Computer Programming Language (x2) & Probability and Statistics
-        start_date: 2021
-        end_date: 2022
+      - label: Georgia Tech
+        details: Teaching Assistant, Computer Communications (2024&ndash;2025)
+      - label: National Taiwan University
+        details: Teaching Assistant, Computer Programming Language (&times;2) and Probability &amp; Statistics (2021&ndash;2022)
 
-    Honors:
+    Awards:
       - title: JASSO Scholarship
         awarder: Japan Student Services Organization
         date: 2023
