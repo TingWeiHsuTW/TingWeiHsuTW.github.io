@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper **Distributed Collaborative Positioning through ISAC for GPS-Denied Robotic Swarms** was accepted to **ACM MobiHoc 2026**. :tada:
+Our paper **Distributed Collaborative Positioning through ISAC for GPS-Denied Robotic Swarms** was accepted to **ACM MobiHoc 2026** (Tokyo, Japan, Nov. 23--26, 2026). :tada:
